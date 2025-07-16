@@ -288,8 +288,8 @@ SUCCESS() {
   print_line "OpenList 安装成功！"
   print_line ""
   print_line "访问地址："
-  print_line "  局域网：http://${LOCAL_IP}:5244/"
-  print_line "  公网：  http://${PUBLIC_IP}:5244/"
+  print_line "  局域网：http://${LOCAL_IP}:6606/"
+  print_line "  公网：  http://${PUBLIC_IP}:6606/"
   print_line "配置文件：$INSTALL_PATH/data/config.json"
   print_line ""
   if [ ! -z "$ADMIN_USER" ] && [ ! -z "$ADMIN_PASS" ]; then
